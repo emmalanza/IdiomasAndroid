@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Idiomas</string>
+
+    <string name="azul">Azul</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="rosa">Rosa</string>
+    <string name="morado">Morado</string>
+    <string name="naranja">Naranja</string>
+    <string name="marron">Marrón</string>
+    <string name="gris">Gris</string>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="tv_colores">Colores</string>
+    <string name="bt_volver">Volver</string>
+
+    <string name="azul_c"> 파란색 </string>
+    <string name="rojo_c">빨간색</string>
+    <string name="verde_c">초록색</string>
+    <string name="amarillo_c">노란색</string>
+    <string name="rosa_c">분홍색</string>
+    <string name="morado_c">보라색</string>
+    <string name="naranja_c">주황색</string>
+    <string name="marron_c">갈색</string>
+    <string name="gris_c">회색</string>
+    <string name="negro_c">검은색</string>
+    <string name="blanco_c"> 하얀색</string>
+
+
+    <string name="dias">Días de la semana</string>
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miércoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sábado</string>
+    <string name="domingo">Domingo</string>
+
+    <string name="lunes_c">월요일</string>
+    <string name="martes_c">화요일</string>
+    <string name="miercoles_c">수요일</string>
+    <string name="jueves_c">목요일</string>
+    <string name="viernes_c">금요일</string>
+    <string name="sabado_c">토요일</string>
+    <string name="domingo_c">일요일</string>
+
+    <string name="siguiente">Siguiente</string>
+
+</resources>

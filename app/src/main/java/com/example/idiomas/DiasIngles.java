@@ -9,8 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DiasCoreano extends AppCompatActivity {
-
+public class DiasIngles extends AppCompatActivity {
     private final String dias[] = {"MARTES", "MIÉRCOLES", "JUEVES", "VIERNES",
             "SÁBADO", "DOMINGO"};
 
@@ -20,8 +19,7 @@ public class DiasCoreano extends AppCompatActivity {
     private int i = 0;
     private int errores, aciertos;
 
-
-   /* protected void onCreate(Bundle savedInstancedState) {
+    protected void onCreate(Bundle savedInstancedState){
 
         super.onCreate(savedInstancedState);
         setContentView(R.layout.jugar);
@@ -33,11 +31,11 @@ public class DiasCoreano extends AppCompatActivity {
         rb_3 = (RadioButton) findViewById(R.id.rb3);
 
         tv_dias.setText("LUNES");
-        rb_1.setText(R.string.lunes_c);
-        rb_2.setText(R.string.jueves_c);
-        rb_3.setText(R.string.domingo_c);
+        rb_1.setText(R.string.lunes_i);
+        rb_2.setText(R.string.jueves_i);
+        rb_3.setText(R.string.domingo_i);
 
-    }*/
+    }
 
     public void siguiente(View view) {
 
@@ -69,29 +67,29 @@ public class DiasCoreano extends AppCompatActivity {
         String dia = (String) tv_dias.getText();
 
         if (dia.equals("MARTES")) {
-            rb_1.setText(R.string.miercoles_c);
-            rb_2.setText(R.string.lunes_c);
-            rb_3.setText(R.string.martes_c);
+            rb_1.setText(R.string.miercoles_i);
+            rb_2.setText(R.string.lunes_i);
+            rb_3.setText(R.string.martes_i);
         } else if (dia.equals("MIÉRCOLES")) {
-            rb_1.setText(R.string.miercoles_c);
-            rb_2.setText(R.string.sabado_c);
-            rb_3.setText(R.string.domingo_c);
+            rb_1.setText(R.string.miercoles_i);
+            rb_2.setText(R.string.sabado_i);
+            rb_3.setText(R.string.domingo_i);
         } else if (dia.equals("JUEVES")) {
-            rb_1.setText(R.string.viernes_c);
-            rb_2.setText(R.string.sabado_c);
-            rb_3.setText(R.string.jueves_c);
+            rb_1.setText(R.string.viernes_i);
+            rb_2.setText(R.string.sabado_i);
+            rb_3.setText(R.string.jueves_i);
         } else if (dia.equals("VIERNES")) {
-            rb_1.setText(R.string.martes_c);
-            rb_2.setText(R.string.viernes_c);
-            rb_3.setText(R.string.lunes_c);
+            rb_1.setText(R.string.martes_i);
+            rb_2.setText(R.string.viernes_i);
+            rb_3.setText(R.string.lunes_i);
         } else if (dia.equals("SÁBADO")) {
-            rb_1.setText(R.string.miercoles_c);
-            rb_2.setText(R.string.sabado_c);
-            rb_3.setText(R.string.lunes_c);
+            rb_1.setText(R.string.miercoles_i);
+            rb_2.setText(R.string.sabado_i);
+            rb_3.setText(R.string.lunes_i);
         } else if (dia.equals("DOMINGO")) {
-            rb_1.setText(R.string.domingo_c);
-            rb_2.setText(R.string.jueves_c);
-            rb_3.setText(R.string.viernes_c);
+            rb_1.setText(R.string.domingo_i);
+            rb_2.setText(R.string.jueves_i);
+            rb_3.setText(R.string.viernes_i);
         }
 
     }
@@ -125,4 +123,3 @@ public class DiasCoreano extends AppCompatActivity {
 
     }
 }
-

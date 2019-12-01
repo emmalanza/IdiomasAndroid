@@ -28,6 +28,17 @@
     <string name="negro_c">검은색</string>
     <string name="blanco_c"> 하얀색</string>
 
+    <string name="azul_i">Blue</string>
+    <string name="rojo_i">Red</string>
+    <string name="verde_i">Green</string>
+    <string name="amarillo_i">Yellow</string>
+    <string name="rosa_i">Pink</string>
+    <string name="morado_i">Purple</string>
+    <string name="naranja_i">Orange</string>
+    <string name="marron_i">Brown</string>
+    <string name="gris_i">Grey</string>
+    <string name="negro_i">Black</string>
+    <string name="blanco_i">White</string>
 
     <string name="dias">Días de la semana</string>
     <string name="lunes">Lunes</string>
@@ -45,6 +56,14 @@
     <string name="viernes_c">금요일</string>
     <string name="sabado_c">토요일</string>
     <string name="domingo_c">일요일</string>
+
+    <string name="lunes_i">Monday</string>
+    <string name="martes_i">Tuesday</string>
+    <string name="miercoles_i">Wednesday</string>
+    <string name="jueves_i">Thursday</string>
+    <string name="viernes_i">Friday</string>
+    <string name="sabado_i">Saturday</string>
+    <string name="domingo_i">Sunday</string>
 
     <string name="siguiente">Siguiente</string>
 

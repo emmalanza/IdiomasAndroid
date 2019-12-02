@@ -21,7 +21,7 @@ public class DiasCoreano extends AppCompatActivity {
     private int errores, aciertos;
 
 
-   /* protected void onCreate(Bundle savedInstancedState) {
+    protected void onCreate(Bundle savedInstancedState) {
 
         super.onCreate(savedInstancedState);
         setContentView(R.layout.jugar);
@@ -37,7 +37,7 @@ public class DiasCoreano extends AppCompatActivity {
         rb_2.setText(R.string.jueves_c);
         rb_3.setText(R.string.domingo_c);
 
-    }*/
+    }
 
     public void siguiente(View view) {
 

@@ -20,7 +20,7 @@ public class ColoresIngles extends AppCompatActivity {
     private int i = 0;
     private int errores, aciertos;
 
-   /* protected void onCreate(Bundle savedInstancedState){
+   protected void onCreate(Bundle savedInstancedState){
 
         super.onCreate(savedInstancedState);
         setContentView(R.layout.jugar);
@@ -38,7 +38,7 @@ public class ColoresIngles extends AppCompatActivity {
         rb_2.setText(R.string.rojo_i);
         rb_3.setText(R.string.blanco_i);
     }
-*/
+
     public void siguiente(View view){
 
         comprobar();

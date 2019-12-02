@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_seleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una opción" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rb_ingles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingles" />
+
+        <RadioButton
+            android:id="@+id/rb_coreano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coreano" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rb_dias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Días" />
+
+        <RadioButton
+            android:id="@+id/rb_colores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colores" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_jugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="jugar"
+        android:text="Jugar" />
+
+    <Button
+        android:id="@+id/bt_aprender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aprender" />
+</LinearLayout>

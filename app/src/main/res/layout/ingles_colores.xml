@@ -57,7 +57,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_azul_c"
+                android:id="@+id/tv_azul_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -90,7 +90,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_rojo_c"
+                android:id="@+id/tv_rojo_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"

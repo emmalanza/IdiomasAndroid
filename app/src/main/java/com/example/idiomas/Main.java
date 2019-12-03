@@ -47,7 +47,7 @@ public class Main extends AppCompatActivity {
             i = new Intent(this, ColoresCoreano.class);
             startActivity(i);
         }else{
-            Toast.makeText(this, "Selecciona opciiones", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Selecciona opciones", Toast.LENGTH_LONG).show();
         }
 
     }

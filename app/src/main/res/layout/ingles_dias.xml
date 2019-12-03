@@ -35,13 +35,15 @@
             android:id="@+id/fila1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/tv_lunes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/lunes"
                 android:textSize="20sp" />
@@ -50,8 +52,8 @@
                 android:id="@+id/tv_lunes_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:text="@string/lunes_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/lunes_i"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -59,13 +61,15 @@
             android:id="@+id/fila2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/tv_martes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/martes"
                 android:textSize="20sp" />
@@ -74,7 +78,8 @@
                 android:id="@+id/tv_martes_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/martes_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/martes_i"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -82,13 +87,15 @@
             android:id="@+id/fila3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/tv_miercoles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/miercoles"
                 android:textSize="20sp" />
@@ -97,7 +104,8 @@
                 android:id="@+id/tv_miercoles_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/miercoles_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/miercoles_i"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -105,13 +113,15 @@
             android:id="@+id/fila4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/tv_jueves"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/jueves"
                 android:textSize="20sp" />
@@ -120,7 +130,8 @@
                 android:id="@+id/tv_jueves_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/jueves_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/jueves_i"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -128,13 +139,15 @@
             android:id="@+id/fila5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/tv_viernes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/viernes"
                 android:textSize="20sp" />
@@ -143,7 +156,8 @@
                 android:id="@+id/tv_viernes_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/viernes_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/viernes_i"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -151,13 +165,15 @@
             android:id="@+id/fila6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/tv_sabado"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/sabado"
                 android:textSize="20sp" />
@@ -166,7 +182,8 @@
                 android:id="@+id/tv_sabado_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/sabado_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/sabado_i"
                 android:textSize="20sp" />
         </TableRow>
 
@@ -174,12 +191,14 @@
             android:id="@+id/fila7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/domingo"
                 android:textSize="20sp" />
@@ -188,7 +207,8 @@
                 android:id="@+id/tv_domingo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/domingo_c"
+                android:layout_marginRight="20dp"
+                android:text="@string/domingo_i"
                 android:textSize="20sp" />
         </TableRow>
 

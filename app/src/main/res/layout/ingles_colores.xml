@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
@@ -60,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/azul_c"
+                android:text="@string/azul_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -93,8 +94,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/rojo_c"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                tools:text="@string/rojo_i" />
         </TableRow>
 
         <TableRow
@@ -126,7 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/verde_c"
+                android:text="@string/verde_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -159,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/amarillo_c"
+                android:text="@string/amarillo_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -192,7 +193,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/rosa_c"
+                android:text="@string/rosa_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -225,7 +226,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/morado_c"
+                android:text="@string/morado_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -258,7 +259,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/naranja_c"
+                android:text="@string/naranja_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -291,7 +292,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/marron_c"
+                android:text="@string/marron_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -324,7 +325,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/gris_c"
+                android:text="@string/gris_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -357,7 +358,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/negro_c"
+                android:text="@string/negro_i"
                 android:textSize="18sp" />
 
         </TableRow>
@@ -391,7 +392,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/blanco_c"
+                android:text="@string/blanco_i"
                 android:textSize="18sp" />
         </TableRow>
 

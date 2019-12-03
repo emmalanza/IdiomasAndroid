@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_colores"
@@ -43,7 +41,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/azul" />
+                android:background="@color/azul"
+                android:onClick="cambiaAzul" />
 
             <TextView
                 android:id="@+id/tv_azul"
@@ -61,7 +60,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/azul_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -76,7 +74,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/rojo" />
+                android:background="@color/rojo"
+                android:onClick="cambiaRojo" />
 
             <TextView
                 android:id="@+id/tv_rojo"
@@ -94,8 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:textSize="18sp"
-                tools:text="@string/rojo_i" />
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -109,7 +107,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/verde" />
+                android:background="@color/verde"
+                android:onClick="cambiaVerde" />
 
             <TextView
                 android:id="@+id/tv_verde"
@@ -123,11 +122,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_verde_c"
+                android:id="@+id/tv_verde_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/verde_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -142,7 +140,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/amarillo" />
+                android:background="@color/amarillo"
+                android:onClick="cambiaAmarillo" />
 
             <TextView
                 android:id="@+id/tv_amarillo"
@@ -156,11 +155,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_amarillo_c"
+                android:id="@+id/tv_amarillo_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/amarillo_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -175,7 +173,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/rosa" />
+                android:background="@color/rosa"
+                android:onClick="cambiaRosa" />
 
             <TextView
                 android:id="@+id/tv_rosa"
@@ -189,11 +188,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_rosa_c"
+                android:id="@+id/tv_rosa_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/rosa_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -208,7 +206,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/morado" />
+                android:background="@color/morado"
+                android:onClick="cambiaMorado" />
 
             <TextView
                 android:id="@+id/tv_morado"
@@ -222,11 +221,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_morado_c"
+                android:id="@+id/tv_morado_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/morado_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -241,7 +239,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/naranja" />
+                android:background="@color/naranja"
+                android:onClick="cambiaNaranja" />
 
             <TextView
                 android:id="@+id/tv_naranja"
@@ -255,11 +254,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_naranja_c"
+                android:id="@+id/tv_naranja_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/naranja_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -274,7 +272,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/marron" />
+                android:background="@color/marron"
+                android:onClick="cambiaMarron" />
 
             <TextView
                 android:id="@+id/tv_marron"
@@ -288,11 +287,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_marron_c"
+                android:id="@+id/tv_marron_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/marron_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -307,7 +305,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/gris" />
+                android:background="@color/gris"
+                android:onClick="cambiaGris" />
 
             <TextView
                 android:id="@+id/tv_gris"
@@ -321,11 +320,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_gris_c"
+                android:id="@+id/tv_gris_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/gris_i"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -340,7 +338,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/negro" />
+                android:background="@color/negro"
+                android:onClick="cambiaNegro" />
 
             <TextView
                 android:id="@+id/tv_negro"
@@ -354,11 +353,10 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_negro_c"
+                android:id="@+id/tv_negro_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/negro_i"
                 android:textSize="18sp" />
 
         </TableRow>
@@ -374,7 +372,8 @@
                 android:layout_height="40dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
-                android:background="@color/blanco" />
+                android:background="@color/blanco"
+                android:onClick="cambiaBlanco" />
 
             <TextView
                 android:id="@+id/tv_blanco"
@@ -388,11 +387,11 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/tv_blanco_c"
+                android:id="@+id/tv_blanco_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/blanco_i"
+                android:text="          "
                 android:textSize="18sp" />
         </TableRow>
 

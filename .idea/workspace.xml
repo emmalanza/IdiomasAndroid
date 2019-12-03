@@ -7,9 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455646c9-6744-4bae-b156-ab5b24279999" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresCoreano.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresCoreano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/InglesColoresAprender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/coreano_colores.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/coreano_colores.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,112 +39,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#739#753#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_colores.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="215" column="15" lean-forward="true" selection-start-line="215" selection-start-column="15" selection-end-line="215" selection-end-column="15" />
-              <folding>
-                <element signature="e#849#863#0" expanded="true" />
-                <element signature="e#1727#1742#0" expanded="true" />
-                <element signature="e#1930#1947#0" expanded="true" />
-                <element signature="e#2620#2636#0" expanded="true" />
-                <element signature="e#2776#2794#0" expanded="true" />
-                <element signature="e#3470#3489#0" expanded="true" />
-                <element signature="e#3632#3653#0" expanded="true" />
-                <element signature="e#4326#4342#0" expanded="true" />
-                <element signature="e#4482#4500#0" expanded="true" />
-                <element signature="e#5174#5191#0" expanded="true" />
-                <element signature="e#5332#5351#0" expanded="true" />
-                <element signature="e#6024#6040#0" expanded="true" />
-                <element signature="e#6180#6198#0" expanded="true" />
-                <element signature="e#6827#6844#0" expanded="true" />
-                <element signature="e#6983#7002#0" expanded="true" />
-              </folding>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="400" column="15" selection-start-line="400" selection-start-column="15" selection-end-line="400" selection-end-column="15" />
-              <folding>
-                <element signature="e#745#765#0" expanded="true" />
-                <element signature="e#1984#1998#0" expanded="true" />
-                <element signature="e#2293#2309#0" expanded="true" />
-                <element signature="e#3229#3243#0" expanded="true" />
-                <element signature="e#4477#4492#0" expanded="true" />
-                <element signature="e#4788#4805#0" expanded="true" />
-                <element signature="e#5737#5755#0" expanded="true" />
-                <element signature="e#6054#6074#0" expanded="true" />
-                <element signature="e#6994#7008#0" expanded="true" />
-                <element signature="e#7303#7319#0" expanded="true" />
-                <element signature="e#8245#8261#0" expanded="true" />
-                <element signature="e#8558#8576#0" expanded="true" />
-                <element signature="e#9505#9522#0" expanded="true" />
-                <element signature="e#9820#9839#0" expanded="true" />
-                <element signature="e#10765#10781#0" expanded="true" />
-                <element signature="e#11078#11096#0" expanded="true" />
-                <element signature="e#12016#12030#0" expanded="true" />
-                <element signature="e#12325#12341#0" expanded="true" />
-                <element signature="e#13265#13280#0" expanded="true" />
-                <element signature="e#13576#13593#0" expanded="true" />
-                <element signature="e#14521#14537#0" expanded="true" />
-                <element signature="e#14834#14852#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -155,20 +79,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/idiomas/ExampleInstrumentedTest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresCoreano.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fin_jugar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/DiasCoreano.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/DiasIngles.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresIngles.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/InglesColoresAprender.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/coreano_colores.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresCoreano.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml" />
       </list>
     </option>
   </component>
@@ -181,6 +106,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -210,19 +138,10 @@
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
-            <path>
-              <item name="Idiomas" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,11 +481,19 @@
       <option name="project" value="LOCAL" />
       <updated>1575392358991</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;3/12/19&quot;">
+      <created>1575392446377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575392446377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1391258" />
@@ -582,17 +509,17 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.08775731" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.08775731" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
-      <window_info anchor="right" id="Preview" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -640,116 +567,15 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fin_jugar.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/DiasIngles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresIngles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresCoreano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/DiasCoreano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_colores_aprender.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="215" column="15" lean-forward="true" selection-start-line="215" selection-start-column="15" selection-end-line="215" selection-end-column="15" />
-          <folding>
-            <element signature="e#849#863#0" expanded="true" />
-            <element signature="e#1727#1742#0" expanded="true" />
-            <element signature="e#1930#1947#0" expanded="true" />
-            <element signature="e#2620#2636#0" expanded="true" />
-            <element signature="e#2776#2794#0" expanded="true" />
-            <element signature="e#3470#3489#0" expanded="true" />
-            <element signature="e#3632#3653#0" expanded="true" />
-            <element signature="e#4326#4342#0" expanded="true" />
-            <element signature="e#4482#4500#0" expanded="true" />
-            <element signature="e#5174#5191#0" expanded="true" />
-            <element signature="e#5332#5351#0" expanded="true" />
-            <element signature="e#6024#6040#0" expanded="true" />
-            <element signature="e#6180#6198#0" expanded="true" />
-            <element signature="e#6827#6844#0" expanded="true" />
-            <element signature="e#6983#7002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_colores_aprender.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/InglesColoresAprender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -782,45 +608,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="400" column="15" selection-start-line="400" selection-start-column="15" selection-end-line="400" selection-end-column="15" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fin_jugar.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresIngles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#745#765#0" expanded="true" />
-            <element signature="e#1984#1998#0" expanded="true" />
-            <element signature="e#2293#2309#0" expanded="true" />
-            <element signature="e#3229#3243#0" expanded="true" />
-            <element signature="e#4477#4492#0" expanded="true" />
-            <element signature="e#4788#4805#0" expanded="true" />
-            <element signature="e#5737#5755#0" expanded="true" />
-            <element signature="e#6054#6074#0" expanded="true" />
-            <element signature="e#6994#7008#0" expanded="true" />
-            <element signature="e#7303#7319#0" expanded="true" />
-            <element signature="e#8245#8261#0" expanded="true" />
-            <element signature="e#8558#8576#0" expanded="true" />
-            <element signature="e#9505#9522#0" expanded="true" />
-            <element signature="e#9820#9839#0" expanded="true" />
-            <element signature="e#10765#10781#0" expanded="true" />
-            <element signature="e#11078#11096#0" expanded="true" />
-            <element signature="e#12016#12030#0" expanded="true" />
-            <element signature="e#12325#12341#0" expanded="true" />
-            <element signature="e#13265#13280#0" expanded="true" />
-            <element signature="e#13576#13593#0" expanded="true" />
-            <element signature="e#14521#14537#0" expanded="true" />
-            <element signature="e#14834#14852#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_colores.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/DiasCoreano.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="663">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/DiasIngles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/jugar.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/idiomas/ColoresCoreano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_colores.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_colores.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#807#827#0" expanded="true" />
+            <element signature="e#2047#2061#0" expanded="true" />
+            <element signature="e#3291#3305#0" expanded="true" />
+            <element signature="e#4539#4554#0" expanded="true" />
+            <element signature="e#5801#5819#0" expanded="true" />
+            <element signature="e#7053#7067#0" expanded="true" />
+            <element signature="e#8305#8321#0" expanded="true" />
+            <element signature="e#9565#9582#0" expanded="true" />
+            <element signature="e#10823#10839#0" expanded="true" />
+            <element signature="e#12071#12085#0" expanded="true" />
+            <element signature="e#13320#13335#0" expanded="true" />
+            <element signature="e#14576#14592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coreano_dias.xml">
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ingles_dias.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#739#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

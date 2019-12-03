@@ -177,6 +177,7 @@
             android:layout_marginBottom="20dp">
 
             <TextView
+                android:id="@+id/tv_domingo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
@@ -185,7 +186,7 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/tv_domingo"
+                android:id="@+id/tv_domingo_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/domingo_c"

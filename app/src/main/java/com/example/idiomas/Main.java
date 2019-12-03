@@ -45,9 +45,38 @@ public class Main extends AppCompatActivity {
         else if(rb_coreano.isChecked() && rb_colores.isChecked()){
             i = new Intent(this, ColoresCoreano.class);
             startActivity(i);
-        }else{
+        }
+        else{
             Toast.makeText(this, "Selecciona opciones", Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void aprender(View view){
+
+        Intent i;
+
+        if(rb_ingles.isChecked() && rb_dias.isChecked()){
+
+            i = new Intent(this, DiasIngles.class);
+            startActivity(i);
+        }
+        else if(rb_ingles.isChecked() && rb_colores.isChecked()){
+
+            i = new Intent(this, ColoresIngles.class);
+            startActivity(i);
+        }
+        else if(rb_coreano.isChecked() && rb_dias.isChecked()){
+            i = new Intent(this, DiasCoreano.class);
+            startActivity(i);
+        }
+        else if(rb_coreano.isChecked() && rb_colores.isChecked()){
+            i = new Intent(this, ColoresCoreano.class);
+            startActivity(i);
+        }
+        else{
+            Toast.makeText(this, "Selecciona opciones", Toast.LENGTH_LONG).show();
+        }
+
 
     }
 }

@@ -19,9 +19,9 @@ public class DiasIngles extends AppCompatActivity {
     private int i = 0;
     private int errores, aciertos;
 
-    protected void onCreate(Bundle savedInstancedState){
+    protected void onCreate(Bundle savedInstanceState){
 
-        super.onCreate(savedInstancedState);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.jugar);
 
         tv_dias = (TextView)findViewById(R.id.tv_texto);

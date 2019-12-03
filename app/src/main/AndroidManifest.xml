@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ColoresCoreano"/>
+        <activity android:name=".ColoresCoreanoAprender"/>
         <activity android:name=".DiasCoreano"/>
         <activity android:name=".ColoresIngles"/>
+        <activity android:name=".ColoresInglesAprender"/>
         <activity android:name=".DiasIngles"/>
         <activity android:name=".Main">            <intent-filter>
             <action android:name="android.intent.action.MAIN" />

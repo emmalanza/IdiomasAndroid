@@ -1,53 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
 
     <TextView
         android:id="@+id/tv_seleccion"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selecciona una opción" />
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="60dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Selecciona una opción"
+        android:textSize="30sp" />
 
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center">
 
-        <RadioButton
-            android:id="@+id/rb_ingles"
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ingles" />
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
 
-        <RadioButton
-            android:id="@+id/rb_coreano"
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_ingles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:text="Ingles" />
+
+                <RadioButton
+                    android:id="@+id/rb_coreano"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coreano" />
+            </RadioGroup>
+
+        </TableRow>
+
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Coreano" />
-    </RadioGroup>
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
 
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/rb_dias"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Días" />
+                <RadioButton
+                    android:id="@+id/rb_dias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Días" />
 
-        <RadioButton
-            android:id="@+id/rb_colores"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Colores" />
-    </RadioGroup>
+                <RadioButton
+                    android:id="@+id/rb_colores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colores" />
+            </RadioGroup>
+
+        </TableRow>
+
+    </TableLayout>
 
     <Button
         android:id="@+id/bt_jugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
         android:onClick="jugar"
         android:text="Jugar" />
 
@@ -55,5 +90,8 @@
         android:id="@+id/bt_aprender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
         android:text="Aprender" />
+
 </LinearLayout>

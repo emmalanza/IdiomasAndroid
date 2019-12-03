@@ -30,20 +30,20 @@ public class Main extends AppCompatActivity {
 
         if(rb_ingles.isChecked() && rb_dias.isChecked()){
 
-            i = new Intent(this, DiasIngles.class);
+            i = new Intent(this, DiasInglesJugar.class);
             startActivity(i);
         }
         else if(rb_ingles.isChecked() && rb_colores.isChecked()){
 
-            i = new Intent(this, ColoresIngles.class);
+            i = new Intent(this, ColoresInglesJugar.class);
             startActivity(i);
         }
         else if(rb_coreano.isChecked() && rb_dias.isChecked()){
-            i = new Intent(this, DiasCoreano.class);
+            i = new Intent(this, DiasCoreanoJugar.class);
             startActivity(i);
         }
         else if(rb_coreano.isChecked() && rb_colores.isChecked()){
-            i = new Intent(this, ColoresCoreano.class);
+            i = new Intent(this, ColoresCoreanoJugar.class);
             startActivity(i);
         }
         else{
@@ -57,20 +57,20 @@ public class Main extends AppCompatActivity {
 
         if(rb_ingles.isChecked() && rb_dias.isChecked()){
 
-            i = new Intent(this, DiasIngles.class);
+            i = new Intent(this, DiasInglesAprender.class);
             startActivity(i);
         }
         else if(rb_ingles.isChecked() && rb_colores.isChecked()){
 
-            i = new Intent(this, ColoresIngles.class);
+            i = new Intent(this, ColoresInglesAprender.class);
             startActivity(i);
         }
         else if(rb_coreano.isChecked() && rb_dias.isChecked()){
-            i = new Intent(this, DiasCoreano.class);
+            i = new Intent(this, DiasCoreanoAprender.class);
             startActivity(i);
         }
         else if(rb_coreano.isChecked() && rb_colores.isChecked()){
-            i = new Intent(this, ColoresCoreano.class);
+            i = new Intent(this, ColoresCoreanoAprender.class);
             startActivity(i);
         }
         else{

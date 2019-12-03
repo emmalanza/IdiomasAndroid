@@ -42,7 +42,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/azul"
-                android:onClick="cambiaAzul" />
+                android:onClick="cambiaAzuli" />
 
             <TextView
                 android:id="@+id/tv_azul"
@@ -76,7 +76,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/rojo"
-                android:onClick="cambiaRojo" />
+                android:onClick="cambiaRojoi" />
 
             <TextView
                 android:id="@+id/tv_rojo"
@@ -110,7 +110,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/verde"
-                android:onClick="cambiaVerde" />
+                android:onClick="cambiaVerdei" />
 
             <TextView
                 android:id="@+id/tv_verde"
@@ -144,7 +144,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/amarillo"
-                android:onClick="cambiaAmarillo" />
+                android:onClick="cambiaAmarilloi" />
 
             <TextView
                 android:id="@+id/tv_amarillo"
@@ -178,7 +178,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/rosa"
-                android:onClick="cambiaRosa" />
+                android:onClick="cambiaRosai" />
 
             <TextView
                 android:id="@+id/tv_rosa"
@@ -212,7 +212,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/morado"
-                android:onClick="cambiaMorado" />
+                android:onClick="cambiaMoradoi" />
 
             <TextView
                 android:id="@+id/tv_morado"
@@ -246,7 +246,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/naranja"
-                android:onClick="cambiaNaranja" />
+                android:onClick="cambiaNaranjai" />
 
             <TextView
                 android:id="@+id/tv_naranja"
@@ -280,7 +280,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/marron"
-                android:onClick="cambiaMarron" />
+                android:onClick="cambiaMarroni" />
 
             <TextView
                 android:id="@+id/tv_marron"
@@ -314,7 +314,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/gris"
-                android:onClick="cambiaGris" />
+                android:onClick="cambiaGrisi" />
 
             <TextView
                 android:id="@+id/tv_gris"
@@ -348,7 +348,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/negro"
-                android:onClick="cambiaNegro" />
+                android:onClick="cambiaNegroi" />
 
             <TextView
                 android:id="@+id/tv_negro"
@@ -383,7 +383,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/blanco"
-                android:onClick="cambiaBlanco" />
+                android:onClick="cambiaBlancoi" />
 
             <TextView
                 android:id="@+id/tv_blanco"

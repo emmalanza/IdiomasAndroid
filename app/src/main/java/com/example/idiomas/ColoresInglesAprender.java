@@ -1,7 +1,6 @@
 package com.example.idiomas;
 
 import android.os.Bundle;
-import android.text.style.BulletSpan;
 import android.view.View;
 import android.widget.TextView;
 
@@ -13,7 +12,7 @@ public class ColoresInglesAprender extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ingles_colores);
+        setContentView(R.layout.ingles_colores_aprender);
 
         tv_azul = (TextView)findViewById(R.id.tv_azul_i);
         tv_rojo = (TextView)findViewById(R.id.tv_rojo_i);

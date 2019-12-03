@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ColoresIngles extends AppCompatActivity {
+public class ColoresInglesJugar extends AppCompatActivity {
 
     private final String colores [] = {"AMARILLO", "VERDE", "AZUL", "ROSA", "MARRÓN",
             "BLANCO", "NEGRO", "GRIS", "MORADO", "NARANJA"};

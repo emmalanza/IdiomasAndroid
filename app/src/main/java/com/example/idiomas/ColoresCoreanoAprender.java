@@ -12,7 +12,7 @@ public class ColoresCoreanoAprender extends AppCompatActivity {
 
     public void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.coreano_colores);
+        setContentView(R.layout.coreano_colores_aprender);
 
         tv_azul = (TextView)findViewById(R.id.tv_azul_c);
         tv_rojo = (TextView)findViewById(R.id.tv_rojo_c);

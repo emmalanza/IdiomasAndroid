@@ -39,7 +39,7 @@
     <string name="negro_i">Black</string>
     <string name="blanco_i">White</string>
 
-    <string name="dias">Días de la semana</string>
+    <string name="tv_dias">Días de la semana</string>
     <string name="lunes">Lunes</string>
     <string name="martes">Martes</string>
     <string name="miercoles">Miércoles</string>
@@ -64,6 +64,9 @@
     <string name="sabado_i">Saturday</string>
     <string name="domingo_i">Sunday</string>
 
-    <string name="siguiente">Siguiente</string>
-
+    <string name="bt_siguiente">Siguiente</string>
+    <string name="tv_texto">Textooooo</string>
+    <string name="tv_opcion">Selecciona una opción</string>
+    <string name="bt_jugar">JUGAR</string>
+    <string name="bt_aprender">APRENDER</string>
 </resources>

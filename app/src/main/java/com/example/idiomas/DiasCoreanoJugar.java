@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DiasCoreano extends AppCompatActivity {
+public class DiasCoreanoJugar extends AppCompatActivity {
 
     private final String dias[] = {"MARTES", "MIÉRCOLES", "JUEVES", "VIERNES",
             "SÁBADO", "DOMINGO"};

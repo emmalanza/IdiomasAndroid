@@ -1,5 +1,6 @@
 package com.example.idiomas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
@@ -9,7 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DiasIngles extends AppCompatActivity {
+public class DiasInglesJugar extends AppCompatActivity {
     private final String dias[] = {"MARTES", "MIÉRCOLES", "JUEVES", "VIERNES",
             "SÁBADO", "DOMINGO"};
 
@@ -122,4 +123,5 @@ public class DiasIngles extends AppCompatActivity {
         }
 
     }
+
 }

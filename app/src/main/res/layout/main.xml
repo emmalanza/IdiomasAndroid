@@ -14,7 +14,7 @@
         android:layout_marginBottom="60dp"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:text="Selecciona una opción"
+        android:text="@string/tv_opcion"
         android:textSize="30sp" />
 
     <TableLayout
@@ -84,7 +84,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="20dp"
         android:onClick="jugar"
-        android:text="Jugar" />
+        android:text="@string/bt_jugar" />
 
     <Button
         android:id="@+id/bt_aprender"
@@ -92,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
-        android:text="Aprender" />
+        android:onClick="aprender"
+        android:text="@string/bt_aprender" />
 
 </LinearLayout>

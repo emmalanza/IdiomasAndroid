@@ -18,7 +18,7 @@
         android:foregroundGravity="center"
         android:gravity="center"
         android:padding="10dp"
-        android:text="@string/dias"
+        android:text="@string/tv_dias"
         android:textSize="30sp"
         android:textStyle="bold" />
 

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_colores"
@@ -13,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:foregroundGravity="center"
@@ -62,9 +60,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/azul_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -97,9 +94,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/rojo_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -132,9 +128,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/verde_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -167,9 +162,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/amarillo_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -202,9 +196,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/rosa_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -237,9 +230,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/morado_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -272,9 +264,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/naranja_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -307,9 +298,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/marron_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -342,9 +332,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/gris_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -377,9 +366,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/negro_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
 
         </TableRow>
 
@@ -413,9 +401,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="@string/blanco_c"
-                android:textSize="18sp"
-                tools:text='""' />
+                android:text='""'
+                android:textSize="18sp" />
         </TableRow>
 
     </TableLayout>

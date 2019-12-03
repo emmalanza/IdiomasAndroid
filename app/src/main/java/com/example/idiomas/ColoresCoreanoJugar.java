@@ -139,27 +139,37 @@ public class ColoresCoreanoJugar extends AppCompatActivity {
 
         if(color.equalsIgnoreCase("ROJO") && rb_2.isChecked()){
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("AMARILLO") && rb_3.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("VERDE") && rb_1.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("AZUL") && rb_3.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("ROSA") && rb_1.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("MARRÓN") && rb_1.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("BLANCO") && rb_3.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("NEGRO") && rb_2.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("GRIS") && rb_2.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("MORADO") && rb_3.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }else if(color.equalsIgnoreCase("NARANJA") && rb_1.isChecked()){
             aciertos++;
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }
 
     }

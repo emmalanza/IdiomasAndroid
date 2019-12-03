@@ -102,25 +102,25 @@ public class DiasCoreanoJugar extends AppCompatActivity {
 
         if (dias.equalsIgnoreCase("LUNES") && rb_1.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         } else if (dias.equalsIgnoreCase("MARTES") && rb_3.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         } else if (dias.equalsIgnoreCase("MIÉRCOLES") && rb_1.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         } else if (dias.equalsIgnoreCase("JUEVES") && rb_3.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         } else if (dias.equalsIgnoreCase("VIERNES") && rb_2.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         } else if (dias.equalsIgnoreCase("SÁBADO") && rb_2.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         } else if (dias.equalsIgnoreCase("DOMINGO") && rb_1.isChecked()) {
             aciertos++;
-            Toast.makeText(this, "CORRECTO", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }
 
     }

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +13,7 @@ public class Main extends AppCompatActivity {
 
     private RadioButton rb_ingles, rb_coreano, rb_dias, rb_colores;
     private Button bt_aceptar;
+    private RadioGroup rg1, rg2;
 
     public void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -22,6 +24,9 @@ public class Main extends AppCompatActivity {
         rb_colores = (RadioButton)findViewById(R.id.rb_colores);
         rb_dias = (RadioButton)findViewById(R.id.rb_dias);
         bt_aceptar = (Button)findViewById(R.id.bt_jugar);
+        rg1 = (RadioGroup)findViewById(R.id.rg1);
+        rg2 = (RadioGroup)findViewById(R.id.rg2);
+
     }
 
     public void jugar (View view){
@@ -49,6 +54,9 @@ public class Main extends AppCompatActivity {
         else{
             Toast.makeText(this, "Selecciona opciones", Toast.LENGTH_LONG).show();
         }
+
+        rg1.clearCheck(); rg2.clearCheck();
+
     }
 
     public void aprender(View view){
@@ -77,6 +85,7 @@ public class Main extends AppCompatActivity {
             Toast.makeText(this, "Selecciona opciones", Toast.LENGTH_LONG).show();
         }
 
+        rg1.clearCheck(); rg2.clearCheck();
 
     }
 }

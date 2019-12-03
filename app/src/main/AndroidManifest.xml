@@ -12,9 +12,11 @@
         <activity android:name=".ColoresCoreanoJugar"/>
         <activity android:name=".ColoresCoreanoAprender"/>
         <activity android:name=".DiasCoreanoJugar"/>
+        <activity android:name=".DiasCoreanoAprender"/>
         <activity android:name=".ColoresInglesJugar"/>
         <activity android:name=".ColoresInglesAprender"/>
         <activity android:name=".DiasInglesJugar"/>
+        <activity android:name=".DiasInglesAprender"/>
         <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

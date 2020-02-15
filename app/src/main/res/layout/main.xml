@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,90 +12,44 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="40dp"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:text="@string/tv_opcion"
-        android:textSize="30sp" />
+        android:text="@string/tv_idioma"
+        android:textColor="#0C0D11"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-    <TableLayout
+    <LinearLayout
+        android:id="@+id/lin_lay_banderas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:foregroundGravity="center"
-        android:gravity="center">
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="30dp">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="20dp">
+        <ImageButton
+            android:id="@+id/bt_coreano"
+            android:layout_width="240dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="coreano"
+            app:srcCompat="@drawable/corea" />
 
-            <RadioGroup
-                android:id="@+id/rg1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/rb_ingles"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingRight="10dp"
-                    android:text="Ingles" />
-
-                <RadioButton
-                    android:id="@+id/rb_coreano"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Coreano" />
-            </RadioGroup>
-
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="50dp">
-
-            <RadioGroup
-                android:id="@+id/rg2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <RadioButton
-                    android:id="@+id/rb_dias"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Días" />
-
-                <RadioButton
-                    android:id="@+id/rb_colores"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Colores" />
-            </RadioGroup>
-
-        </TableRow>
-
-    </TableLayout>
-
-    <Button
-        android:id="@+id/bt_jugar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="20dp"
-        android:onClick="jugar"
-        android:text="@string/bt_jugar" />
-
-    <Button
-        android:id="@+id/bt_aprender"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
-        android:onClick="aprender"
-        android:text="@string/bt_aprender" />
+        <ImageButton
+            android:id="@+id/bt_ingles"
+            android:layout_width="240dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:onClick="ingles"
+            app:srcCompat="@drawable/inglaterra" />
+    </LinearLayout>
 
 </LinearLayout>

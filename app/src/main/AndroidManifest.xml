@@ -17,6 +17,10 @@
         <activity android:name=".ColoresInglesAprender"/>
         <activity android:name=".DiasInglesJugar"/>
         <activity android:name=".DiasInglesAprender"/>
+        <activity android:name=".NumerosInglesAprender"/>
+        <activity android:name=".NumerosInglesJugar"/>
+        <activity android:name=".MenuIngles"/>
+        <activity android:name="MenuCoreano"/>
         <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

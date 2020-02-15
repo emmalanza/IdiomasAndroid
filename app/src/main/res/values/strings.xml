@@ -64,9 +64,34 @@
     <string name="sabado_i">Saturday</string>
     <string name="domingo_i">Sunday</string>
 
+    <string name="tv_numeros">Números</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="diez">10</string>
+
+    <string name="uno_i">ONE</string>
+    <string name="dos_i">TWO</string>
+    <string name="tres_i">THREE</string>
+    <string name="cuatro_i">FOUR</string>
+    <string name="cinco_i">FIVE</string>
+    <string name="seis_i">SIX</string>
+    <string name="siete_i">SEVEN</string>
+    <string name="ocho_i">EIGHT</string>
+    <string name="nueve_i">NINE</string>
+    <string name="diez_i">TEN</string>
+
     <string name="bt_siguiente">Siguiente</string>
     <string name="tv_texto">Textooooo</string>
+    <string name="tv_idioma">Selecciona un idioma</string>
     <string name="tv_opcion">Selecciona una opción</string>
     <string name="bt_jugar">JUGAR</string>
     <string name="bt_aprender">APRENDER</string>
+
 </resources>

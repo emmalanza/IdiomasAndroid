@@ -18,6 +18,7 @@
         android:gravity="center"
         android:padding="10dp"
         android:text="@string/tv_dias"
+        android:textColor="#9FA8DA"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -44,7 +45,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/lunes"
-                android:textSize="20sp" />
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_lunes_i"
@@ -52,7 +55,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/lunes_i"
-                android:textSize="20sp" />
+                android:textColor="#009688"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -69,7 +74,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/martes"
-                android:textSize="20sp" />
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_martes_i"
@@ -77,7 +84,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/martes_i"
-                android:textSize="20sp" />
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -94,7 +103,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/miercoles"
-                android:textSize="20sp" />
+                android:textColor="#8BC34A"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_miercoles_i"
@@ -102,7 +113,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/miercoles_i"
-                android:textSize="20sp" />
+                android:textColor="#8BC34A"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -119,7 +132,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/jueves"
-                android:textSize="20sp" />
+                android:textColor="#FFC107"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_jueves_i"
@@ -127,7 +142,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/jueves_i"
-                android:textSize="20sp" />
+                android:textColor="#FFC107"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -144,7 +161,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/viernes"
-                android:textSize="20sp" />
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_viernes_i"
@@ -152,7 +171,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/viernes_i"
-                android:textSize="20sp" />
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -169,7 +190,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/sabado"
-                android:textSize="20sp" />
+                android:textColor="#FF5722"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_sabado_i"
@@ -177,7 +200,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/sabado_i"
-                android:textSize="20sp" />
+                android:textColor="#FF5722"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -194,7 +219,9 @@
                 android:layout_marginRight="50dp"
                 android:layout_marginBottom="10dp"
                 android:text="@string/domingo"
-                android:textSize="20sp" />
+                android:textColor="#D50000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_domingo_i"
@@ -202,7 +229,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="@string/domingo_i"
-                android:textSize="20sp" />
+                android:textColor="#D50000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </TableRow>
     </TableLayout>
 

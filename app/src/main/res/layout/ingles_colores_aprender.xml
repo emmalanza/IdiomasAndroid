@@ -11,14 +11,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:foregroundGravity="center"
         android:gravity="center"
         android:padding="10dp"
         android:text="@string/tv_colores"
-        android:textSize="24sp"
+        android:textColor="#9FA8DA"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TableLayout
@@ -53,7 +54,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/azul"
-                android:textSize="18sp" />
+                android:textColor="@color/azul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_azul_i"
@@ -61,7 +64,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/azul"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -87,7 +92,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/rojo"
-                android:textSize="18sp" />
+                android:textColor="@color/rojo"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_rojo_i"
@@ -95,7 +102,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/rojo"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -121,7 +130,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/verde"
-                android:textSize="18sp" />
+                android:textColor="@color/verde"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_verde_i"
@@ -129,7 +140,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/verde"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -155,7 +168,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/amarillo"
-                android:textSize="18sp" />
+                android:textColor="@color/amarillo"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_amarillo_i"
@@ -163,7 +178,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/amarillo"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -189,7 +206,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/rosa"
-                android:textSize="18sp" />
+                android:textColor="@color/rosa"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_rosa_i"
@@ -197,7 +216,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/rosa"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -223,7 +244,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/morado"
-                android:textSize="18sp" />
+                android:textColor="@color/morado"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_morado_i"
@@ -231,7 +254,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/morado"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -257,7 +282,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/naranja"
-                android:textSize="18sp" />
+                android:textColor="@color/naranja"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_naranja_i"
@@ -265,7 +292,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/naranja"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -291,7 +320,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/marron"
-                android:textSize="18sp" />
+                android:textColor="@color/marron"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_marron_i"
@@ -299,7 +330,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/marron"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -325,7 +358,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/gris"
-                android:textSize="18sp" />
+                android:textColor="@color/gris"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_gris_i"
@@ -333,7 +368,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="@color/gris"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -359,7 +396,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/negro"
-                android:textSize="18sp" />
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_negro_i"
@@ -367,7 +406,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </TableRow>
 
@@ -394,7 +435,9 @@
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:text="@string/blanco"
-                android:textSize="18sp" />
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_blanco_i"
@@ -402,7 +445,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:text='""'
-                android:textSize="18sp" />
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </TableRow>
 
     </TableLayout>

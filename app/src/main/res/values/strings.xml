@@ -93,5 +93,18 @@
     <string name="tv_opcion">Selecciona una opción</string>
     <string name="bt_jugar">JUGAR</string>
     <string name="bt_aprender">APRENDER</string>
+    <string name="tv_titulo">INFORMARCIÓN SOBRE LA APP</string>
+    <string name="tv_info">Las nuevas tecnologías llevan años revolucionando nuestra manera de ver y entender el mundo. Con la era digital, son pocas las cosas que hoy en día hacemos de forma tradicional, ya que vivimos como si el móvil fuera una parte más de nuestro cuerpo. Aprender idiomas entra dentro de esa lista.  Saber idiomas es cada vez más necesario en la economía global en la que nos movemos, sobre todo si tenemos en cuenta cuánto tardan algunas aplicaciones y sistemas en estar disponible en español. Por supuesto, también suponen cierta ventaja a la hora de buscar un trabajo o educación.
+Aprender y dominar un idioma es un proceso que toma tiempo, un buen material y mucha práctica. Por suerte, en tu móvil tienes un gran aliado para acompañarte en tu aprendizaje, ampliar tu vocabulario, mejorar tu pronunciación o practicar la gramática no solo del inglés sino de otros muchos idiomas. Esta es una de las mejores aplicaciones para ello</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión o registrarse</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="invalid_username">Usuario inválido</string>
+    <string name="invalid_password">La contraseña debe contener más de 5 caracteres</string>
+    <string name="login_failed">Imposible conectar</string>
 
 </resources>

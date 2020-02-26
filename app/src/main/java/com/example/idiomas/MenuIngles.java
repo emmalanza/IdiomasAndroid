@@ -34,10 +34,10 @@ public class MenuIngles extends AppCompatActivity {
     public void aprender(View view){
 
         if(rb_dias.isChecked()){
-            i = new Intent(this, DiasInglesAprender.class);
+            i = new Intent(this, ColoresInglesAprender.class);
             startActivity(i);
         }else if(rb_colores.isChecked()){
-            i = new Intent(this, ColoresInglesAprender.class);
+            i = new Intent(this, DiasInglesAprender.class);
             startActivity(i);
         }else if(rb_numeros.isChecked()){
             i = new Intent(this, NumerosInglesAprender.class);
@@ -51,10 +51,10 @@ public class MenuIngles extends AppCompatActivity {
     public void jugar(View view){
 
         if(rb_dias.isChecked()){
-            i = new Intent(this, DiasInglesJugar.class);
+            i = new Intent(this, ColoresInglesJugar.class);
             startActivity(i);
         }else if(rb_colores.isChecked()){
-            i = new Intent(this, ColoresInglesJugar.class);
+            i = new Intent(this, DiasInglesJugar.class);
             startActivity(i);
         } else if(rb_numeros.isChecked()){
             i = new Intent(this, NumerosInglesJugar.class);

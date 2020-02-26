@@ -33,10 +33,10 @@ public class MenuCoreano extends AppCompatActivity {
     public void aprender(View view){
 
         if(rb_dias.isChecked()){
-            i = new Intent(this, DiasCoreanoAprender.class);
+            i = new Intent(this, ColoresCoreanoAprender.class);
             startActivity(i);
         }else if(rb_colores.isChecked()){
-            i = new Intent(this, ColoresCoreanoAprender.class);
+            i = new Intent(this, DiasCoreanoAprender.class);
             startActivity(i);
         }
 
@@ -47,10 +47,10 @@ public class MenuCoreano extends AppCompatActivity {
     public void jugar(View view){
 
         if(rb_dias.isChecked()){
-            i = new Intent(this, DiasCoreanoJugar.class);
+            i = new Intent(this, ColoresCoreanoJugar.class);
             startActivity(i);
         }else if(rb_colores.isChecked()){
-            i = new Intent(this, ColoresCoreanoJugar.class);
+            i = new Intent(this, DiasCoreanoJugar.class);
             startActivity(i);
         }
 

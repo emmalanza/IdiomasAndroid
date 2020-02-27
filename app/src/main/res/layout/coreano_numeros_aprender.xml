@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tv_numeros"
@@ -11,12 +9,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:text="@string/tv_numeros"
+        android:text="@string/sinoCoreanos"
         android:textColor="#9FA8DA"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -27,270 +25,281 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:layout_marginRight="80dp"
-        android:foregroundGravity="center"
-        android:gravity="center"
-        android:padding="5dp">
+        android:layout_marginRight="80dp">
 
         <TableRow
             android:id="@+id/tr1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_1"
+                android:id="@+id/tv1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/uno"
-                android:textColor="#00BFA5"
+                android:textColor="#FF1744"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_1_i"
+                android:id="@+id/tv1_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/uno_i"
-                android:textColor="#00BFA5"
+                android:text="@string/uno_sc"
+                android:textColor="#FF1744"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_2"
+                android:id="@+id/tv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/dos"
-                android:textColor="#FF6D00"
+                android:textColor="#F50057"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_2_i"
+                android:id="@+id/tv2_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/dos_i"
-                android:textColor="#FF6D00"
+                android:text="@string/dos_sc"
+                android:textColor="#F50057"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_3"
+                android:id="@+id/tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/tres"
-                android:textColor="#AA00FF"
+                android:textColor="#D500F9"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_3_i"
+                android:id="@+id/tv3_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tres_i"
-                android:textColor="#AA00FF"
+                android:text="@string/tres_sc"
+                android:textColor="#D500F9"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_4"
+                android:id="@+id/tv4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/cuatro"
-                android:textColor="#FFAB00"
+                android:textColor="#651FFF"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_4_i"
+                android:id="@+id/tv4_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/cuatro_i"
-                android:textColor="#FFAB00"
+                android:text="@string/cuatro_sc"
+                android:textColor="#651FFF"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
         </TableRow>
 
         <TableRow
             android:id="@+id/tr5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_5"
+                android:id="@+id/tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/cinco"
-                android:textColor="#FF80AB"
+                android:textColor="#3D5AFE"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_5_i"
+                android:id="@+id/tv5_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/cinco_i"
-                android:textColor="#FF80AB"
+                android:text="@string/cinco_sc"
+                android:textColor="#3D5AFE"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_6"
+                android:id="@+id/tv6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/seis"
-                android:textColor="#00838F"
+                android:textColor="#2979FF"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_6_i"
+                android:id="@+id/tv6_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/seis_i"
-                android:textColor="#00838F"
+                android:text="@string/seis_sc"
+                android:textColor="#2979FF"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_7"
+                android:id="@+id/tv7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/siete"
-                android:textColor="#C62828"
+                android:textColor="#00B0FF"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_7_i"
+                android:id="@+id/tv7_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/siete_i"
-                android:textColor="#C62828"
+                android:text="@string/siete_sc"
+                android:textColor="#00B0FF"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_8"
+                android:id="@+id/tv8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/ocho"
-                android:textColor="#283593"
+                android:textColor="#00E676"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_8_i"
+                android:id="@+id/tv8_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/ocho_i"
-                android:textColor="#283593"
+                android:text="@string/ocho_sc"
+                android:textColor="#00E676"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_9"
+                android:id="@+id/tv9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/nueve"
-                android:textColor="#4CAF50"
+                android:textColor="#FFC400"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_9_i"
+                android:id="@+id/tv9_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nueve_i"
-                android:textColor="#4CAF50"
+                android:text="@string/nueve_sc"
+                android:textColor="#FFC400"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:id="@+id/tr10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/tv_10"
+                android:id="@+id/tv10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:text="@string/diez"
-                android:textColor="#FF5722"
+                android:textColor="#FF3D00"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_10_i"
+                android:id="@+id/tv10_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/diez_i"
-                android:textColor="#FF5722"
+                android:text="@string/diez_sc"
+                android:textColor="#FF3D00"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </TableRow>
     </TableLayout>
 
+    <Button
+        android:id="@+id/bt_saber_mas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="130dp"
+        android:background="@drawable/boton_redondo"
+        android:onClick="saber_mas"
+        android:text="@string/bt_saber_mas"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold" />
 </LinearLayout>

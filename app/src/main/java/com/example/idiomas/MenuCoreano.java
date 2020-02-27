@@ -34,12 +34,13 @@ public class MenuCoreano extends AppCompatActivity {
 
         if(rb_dias.isChecked()){
             i = new Intent(this, ColoresCoreanoAprender.class);
-            startActivity(i);
         }else if(rb_colores.isChecked()){
             i = new Intent(this, DiasCoreanoAprender.class);
-            startActivity(i);
+        }else if(rb_numeros.isChecked()){
+            i = new Intent(this, MenuNumerosCoreano.class );
         }
 
+        startActivity(i);
         radioGroup.clearCheck();
 
     }
@@ -48,12 +49,13 @@ public class MenuCoreano extends AppCompatActivity {
 
         if(rb_dias.isChecked()){
             i = new Intent(this, ColoresCoreanoJugar.class);
-            startActivity(i);
         }else if(rb_colores.isChecked()){
             i = new Intent(this, DiasCoreanoJugar.class);
-            startActivity(i);
+        }else if(rb_numeros.isChecked()){
+            i = new Intent(this, MenuNumerosCoreano.class );
         }
 
+        startActivity(i);
         radioGroup.clearCheck();
 
     }

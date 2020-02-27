@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Informacion" />
+        <activity android:name=".SaberMas" />
         <activity android:name=".ColoresCoreanoJugar" />
         <activity android:name=".ColoresCoreanoAprender" />
         <activity android:name=".DiasCoreanoJugar" />
@@ -33,6 +34,8 @@
         <activity android:name=".NumerosInglesJugar" />
         <activity android:name=".MenuIngles" />
         <activity android:name=".MenuCoreano" />
+        <activity android:name=".MenuNumerosCoreano" />
+        <activity android:name=".NumerosCoreanoAprender" />
         <activity android:name=".Main"/>
 
     </application>

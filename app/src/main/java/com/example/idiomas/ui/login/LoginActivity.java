@@ -23,12 +23,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.idiomas.Informacion;
 import com.example.idiomas.Main;
 import com.example.idiomas.R;
-import com.example.idiomas.ui.login.LoginViewModel;
-import com.example.idiomas.ui.login.LoginViewModelFactory;
-import static android.Manifest.permission.READ_CONTACTS;
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;

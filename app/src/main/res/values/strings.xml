@@ -87,12 +87,36 @@
     <string name="nueve_i">NINE</string>
     <string name="diez_i">TEN</string>
 
+    <string name="tv_opcion_numeros">Selecciona un sistema numérico</string>
+
+    <string name="sinoCoreanos">Números sino-coreanos</string>
+    <string name="uno_sc">일</string>
+    <string name="dos_sc">이</string>
+    <string name="tres_sc">삼</string>
+    <string name="cuatro_sc">사</string>
+    <string name="cinco_sc">오</string>
+    <string name="seis_sc">륙</string>
+    <string name="siete_sc">칠</string>
+    <string name="ocho_sc">팔</string>
+    <string name="nueve_sc">구</string>
+    <string name="diez_sc">십</string>
+
+    <string name="nativoCoreanos">Números nativo-coreanos</string>
+
     <string name="bt_siguiente">Siguiente</string>
     <string name="tv_texto">Textooooo</string>
     <string name="tv_idioma">Selecciona un idioma</string>
     <string name="tv_opcion">Selecciona una opción</string>
     <string name="bt_jugar">JUGAR</string>
     <string name="bt_aprender">APRENDER</string>
+
+    <string name="bt_saber_mas"> Saber más...</string>
+    <string name="informacion_sino">Está basado en el idioma Chino (Sino-Coreano).
+        Los números sino-coreanos se usan para decir los números de teléfono, contar dinero, decir minutos, y en general todos aquellos números que no siguen un orden secuencial.
+        También se usan para números altos cuando estos siguen un orden secuencial</string>
+    <string name="informacion_nativos">Se usan para contar cosas que siguen un orden secuencial (1,2,3,4,5..), cuando pedimos en un restaurante, cuando compramos múltiples cosas en una tienda, cuando hablamos de la edad, y cuando decimos las horas (NO LOS MINUTOS, SÓLO LAS HORAS).
+        Cuando los números son altos se suele recurrir a los números sino-coreanos por su simplicidad.</string>
+
     <string name="tv_titulo">INFORMARCIÓN SOBRE LA APP</string>
     <string name="tv_info">Las nuevas tecnologías llevan años revolucionando nuestra manera de ver y entender el mundo. Con la era digital, son pocas las cosas que hoy en día hacemos de forma tradicional, ya que vivimos como si el móvil fuera una parte más de nuestro cuerpo. Aprender idiomas entra dentro de esa lista.  Saber idiomas es cada vez más necesario en la economía global en la que nos movemos, sobre todo si tenemos en cuenta cuánto tardan algunas aplicaciones y sistemas en estar disponible en español. Por supuesto, también suponen cierta ventaja a la hora de buscar un trabajo o educación.
 Aprender y dominar un idioma es un proceso que toma tiempo, un buen material y mucha práctica. Por suerte, en tu móvil tienes un gran aliado para acompañarte en tu aprendizaje, ampliar tu vocabulario, mejorar tu pronunciación o practicar la gramática no solo del inglés sino de otros muchos idiomas. Esta es una de las mejores aplicaciones para ello</string>

@@ -30,6 +30,6 @@ public class NumerosCoreanoAprender extends AppCompatActivity {
 
         Intent i = new Intent(this, SaberMas.class);
         i.putExtra("sistema", sistema);
-
+        startActivity(i);
     }
 }

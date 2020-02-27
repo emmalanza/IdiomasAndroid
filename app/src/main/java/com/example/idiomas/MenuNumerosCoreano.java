@@ -42,5 +42,7 @@ public class MenuNumerosCoreano extends AppCompatActivity {
             i.putExtra("sistema", sistema);
         }
 
+        startActivity(i);
+        radioGroup.clearCheck();
     }
 }

@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Main extends AppCompatActivity {
@@ -14,7 +15,7 @@ public class Main extends AppCompatActivity {
     private ImageButton bt_coreano, bt_ingles;
 
 
-    public void onCreate (Bundle savedInstanceState){
+    public void onCreate (@Nullable  Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 

@@ -7,15 +7,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/img_final"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
         android:layout_gravity="center"
-        android:layout_margin="100dp"
-        android:contentDescription="imagen"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/imagen_final"
         android:foregroundGravity="center"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/fail" />
 
     <TextView
         android:id="@+id/tv_resultado"
@@ -24,6 +25,8 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="20dp"
+        android:textColor="#D81B60"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -31,10 +34,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
         android:foregroundGravity="center"
         android:gravity="center"
         android:padding="20dp"
+        android:textColor="#8E24AA"
         android:textSize="24sp"
         android:textStyle="bold" />
 </LinearLayout>

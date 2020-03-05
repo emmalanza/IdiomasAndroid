@@ -2,6 +2,7 @@ package com.example.idiomas;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -9,13 +10,18 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import pl.droidsonroids.gif.GifImageView;
+
 public class NumerosInglesJugar extends AppCompatActivity {
 
 
     private final String numeros [] = {"2", "3", "4", "5",
             "6", "7", "8", "9", "10"};
 
-    private TextView tv_num, tv_mensaje, tv_resultado;
+    private TextView tv_mensaje, tv_resultado;
+    private ImageView imagen;
+    private GifImageView img_final;
+    private String numero;
     private RadioGroup radio_group;
     private RadioButton rb_1, rb_2, rb_3;
     private int i = 0;
@@ -25,15 +31,16 @@ public class NumerosInglesJugar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.jugar);
+        setContentView(R.layout.jugar_numeros);
 
-        tv_num = (TextView) findViewById(R.id.tv_texto);
+        imagen = (ImageView) findViewById(R.id.img_num);
         radio_group = (RadioGroup) findViewById(R.id.rg_respuestas);
         rb_1 = (RadioButton) findViewById(R.id.rb1);
         rb_2 = (RadioButton) findViewById(R.id.rb2);
         rb_3 = (RadioButton) findViewById(R.id.rb3);
 
-        tv_num.setText("1");
+        numero = "1";
+        imagen.setImageResource(R.drawable.uno);
         rb_1.setText(R.string.siete_i);
         rb_2.setText(R.string.cinco_i);
         rb_3.setText(R.string.uno_i);
@@ -45,7 +52,7 @@ public class NumerosInglesJugar extends AppCompatActivity {
 
         if(i<numeros.length){
             String num = numeros[i];
-            tv_num.setText(num);
+            numero = num;
             cambiar();
             radio_group.clearCheck();
             i++;
@@ -54,11 +61,14 @@ public class NumerosInglesJugar extends AppCompatActivity {
             setContentView(R.layout.fin_jugar);
             tv_mensaje = (TextView)findViewById(R.id.tv_mensaje);
             tv_resultado = (TextView)findViewById(R.id.tv_resultado);
-            tv_resultado.setText("Aciertos: " + aciertos + " Fallos:" + errores);
+            img_final = (GifImageView)findViewById(R.id.img_final);
+            tv_resultado.setText("Aciertos: " + aciertos + " \nFallos:" + errores);
 
             if(aciertos>=5){
-                tv_mensaje.setText("¡ENHORABUENA!");
+                img_final.setImageResource(R.drawable.congrats);
+                tv_mensaje.setText("¡GOOD JOB!");
             }else{
+                img_final.setImageResource(R.drawable.fail);
                 tv_mensaje.setText("OOOOOOOOH");
             }
         }
@@ -66,41 +76,48 @@ public class NumerosInglesJugar extends AppCompatActivity {
 
     public void cambiar(){
 
-        String color = (String)tv_num.getText();
-
-        if(color.equals("2")){
+        if(numero.equals("2")){
+            imagen.setImageResource(R.drawable.dos);
             rb_1.setText(R.string.dos_i);
             rb_2.setText(R.string.cuatro_i);
             rb_3.setText(R.string.diez_i);
-        }else if(color.equals("3")){
+        }else if(numero.equals("3")){
+            imagen.setImageResource(R.drawable.tres);
             rb_1.setText(R.string.siete_i);
             rb_2.setText(R.string.tres_i);
             rb_3.setText(R.string.nueve_i);
-        }else if(color.equals("4")){
+        }else if(numero.equals("4")){
+            imagen.setImageResource(R.drawable.cuatro);
             rb_1.setText(R.string.uno_i);
             rb_2.setText(R.string.cuatro_i);
             rb_3.setText(R.string.tres_i);
-        }else if(color.equals("5")){
+        }else if(numero.equals("5")){
+            imagen.setImageResource(R.drawable.cinco);
             rb_1.setText(R.string.ocho_i);
             rb_2.setText(R.string.nueve_i);
             rb_3.setText(R.string.cinco_i);
-        }else if(color.equals("6")){
+        }else if(numero.equals("6")){
+            imagen.setImageResource(R.drawable.seis);
             rb_1.setText(R.string.cinco_i);
             rb_2.setText(R.string.tres_i);
             rb_3.setText(R.string.seis_i);
-        }else if(color.equals("7")){
+        }else if(numero.equals("7")){
+            imagen.setImageResource(R.drawable.siete);
             rb_1.setText(R.string.siete_i);
             rb_2.setText(R.string.seis_i);
             rb_3.setText(R.string.uno_i);
-        }else if(color.equals("8")){
+        }else if(numero.equals("8")){
+            imagen.setImageResource(R.drawable.ocho);
             rb_1.setText(R.string.ocho_i);
             rb_2.setText(R.string.cinco_i);
             rb_3.setText(R.string.cuatro_i);
-        }else if(color.equals("9")){
+        }else if(numero.equals("9")){
+            imagen.setImageResource(R.drawable.nueve);
             rb_1.setText(R.string.seis_i);
             rb_2.setText(R.string.uno_i);
             rb_3.setText(R.string.nueve_i);
-        }else if(color.equals("10")){
+        }else if(numero.equals("10")){
+            imagen.setImageResource(R.drawable.diez);
             rb_1.setText(R.string.ocho_i);
             rb_2.setText(R.string.diez_i);
             rb_3.setText(R.string.dos_i);
@@ -109,36 +126,34 @@ public class NumerosInglesJugar extends AppCompatActivity {
 
     public void comprobar(){
 
-        String color = (String)tv_num.getText();
-
-        if(color.equalsIgnoreCase("1") && rb_3.isChecked()){
+        if(numero.equalsIgnoreCase("1") && rb_3.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("2") && rb_1.isChecked()){
+        }else if(numero.equalsIgnoreCase("2") && rb_1.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("3") && rb_2.isChecked()){
+        }else if(numero.equalsIgnoreCase("3") && rb_2.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("4") && rb_2.isChecked()){
+        }else if(numero.equalsIgnoreCase("4") && rb_2.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("5") && rb_3.isChecked()){
+        }else if(numero.equalsIgnoreCase("5") && rb_3.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("6") && rb_3.isChecked()){
+        }else if(numero.equalsIgnoreCase("6") && rb_3.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("7") && rb_1.isChecked()){
+        }else if(numero.equalsIgnoreCase("7") && rb_1.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("8") && rb_1.isChecked()){
+        }else if(numero.equalsIgnoreCase("8") && rb_1.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("9") && rb_3.isChecked()){
+        }else if(numero.equalsIgnoreCase("9") && rb_3.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
-        }else if(color.equalsIgnoreCase("10") && rb_2.isChecked()){
+        }else if(numero.equalsIgnoreCase("10") && rb_2.isChecked()){
             aciertos++;
             Toast.makeText(this, "CORRECTO", Toast.LENGTH_SHORT).show();
         }

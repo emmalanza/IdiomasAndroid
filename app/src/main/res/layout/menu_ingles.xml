@@ -108,6 +108,7 @@
         android:background="@drawable/boton_redondo"
         android:onClick="aprender"
         android:text="@string/bt_aprender"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
 </LinearLayout>

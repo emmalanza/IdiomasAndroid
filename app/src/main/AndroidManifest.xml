@@ -37,6 +37,8 @@
         <activity android:name=".MenuCoreano" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".MenuNumerosCoreano" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".NumerosCoreanoAprender" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumerosSinoJugar" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".NumerosNativoJugar" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>

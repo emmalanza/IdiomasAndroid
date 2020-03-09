@@ -84,6 +84,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
         android:background="@drawable/boton_redondo"
+        android:onClick="jugar"
         android:text="@string/bt_jugar"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />

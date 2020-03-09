@@ -102,6 +102,18 @@
     <string name="diez_sc">십</string>
 
     <string name="nativoCoreanos">Números nativo-coreanos</string>
+    <string name="uno_n">하나</string>
+    <string name="dos_n">둘</string>
+    <string name="tres_n">셋</string>
+    <string name="cuatro_n">넷</string>
+    <string name="cinco_n">다섯</string>
+    <string name="seis_n">여섯</string>
+    <string name="siete_n">일곱</string>
+    <string name="ocho_n">여덟</string>
+    <string name="nueve_n">아홉</string>
+    <string name="diez_n">열</string>
+
+
 
     <string name="bt_siguiente">Siguiente</string>
     <string name="tv_texto">Textooooo</string>
@@ -113,8 +125,8 @@
     <string name="bt_saber_mas"> Saber más...</string>
     <string name="informacion_sino">Está basado en el idioma Chino (Sino-Coreano).
         Los números sino-coreanos se usan para decir los números de teléfono, contar dinero, decir minutos, y en general todos aquellos números que no siguen un orden secuencial.
-        También se usan para números altos cuando estos siguen un orden secuencial</string>
-    <string name="informacion_nativos">Se usan para contar cosas que siguen un orden secuencial (1,2,3,4,5..), cuando pedimos en un restaurante, cuando compramos múltiples cosas en una tienda, cuando hablamos de la edad, y cuando decimos las horas (NO LOS MINUTOS, SÓLO LAS HORAS).
+        También se usan para números altos cuando estos siguen un orden secuencial.</string>
+    <string name="informacion_nativos">Se usan cuando pedimos en un restaurante, cuando compramos múltiples cosas en una tienda, cuando hablamos de la edad, y cuando decimos las horas (NO LOS MINUTOS, SÓLO LAS HORAS).
         Cuando los números son altos se suele recurrir a los números sino-coreanos por su simplicidad.</string>
 
     <string name="tv_titulo">INFORMARCIÓN SOBRE LA APP</string>

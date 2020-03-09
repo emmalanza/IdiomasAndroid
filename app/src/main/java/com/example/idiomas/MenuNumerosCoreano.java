@@ -45,4 +45,16 @@ public class MenuNumerosCoreano extends AppCompatActivity {
         startActivity(i);
         radioGroup.clearCheck();
     }
+
+    public void jugar(View v){
+
+        if(rb_sino.isChecked()){
+            i = new Intent(this, NumerosSinoJugar.class);
+        }else if(rb_nativo.isChecked()){
+            i = new Intent(this, NumerosNativoJugar.class);
+        }
+
+        startActivity(i);
+        radioGroup.clearCheck();
+    }
 }
